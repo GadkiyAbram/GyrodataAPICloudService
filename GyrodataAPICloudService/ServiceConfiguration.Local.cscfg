@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="GyrodataAPICloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="6" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="GyrodataWebService">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="gadkiyabram" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEEK0tmMi/puYTqn25WkQzkUwDQYJKoZIhvcNAQEBBQAEggEAWcIijkEd1++fQ4EmoL5JMABoimbirTzZmYelDBUPMsEkXh2XLWZ8OrrUpO7uZ8E82sBvAcPNrpk6fJFUHOsf18PZo65EAshy7OQ42YpgeIy+i/OE/OyJCHyDIpiRlgvCIt8hhnDM879f2V3wT9+FX2ndodN5wy/YtIWULakVa2le42Vd/z1bSbHq672gTifCPzC34RqUkmk8yGK+JmoiGv9LNj3Uq05WTf1tYlXzhggcHaKpaCk4upvBa4e9rXcoI7MGG/jUGk3ozf9Mv3HOcPJbOxvuz3reCZ/xv/81GPnphSZLQL+zZpb05VKp1E6IugmtQ9AW4jaF6YGcazvlLjAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECOCfCFNojLj+gBC7mB9B4CAESZV6/NuQ1kX+" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2021-07-18T23:59:59.0000000+05:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="0655838c-87d8-4ef5-8a78-971a0ad45635" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="FDA9837A4EAF2ED7FB15B0E5674A2CD0B61C740B" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GyrodataWebService.BatteryServices.BatteryService" CodeBehind="BatteryService.svc.cs" %>
